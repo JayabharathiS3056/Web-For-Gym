@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IRONFORGE GYM – Udumalpet</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">IRON<span>FORGE</span></a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#classes">Classes</a></li>
+      <li><a href="#amenities">Amenities</a></li>
+      <li><a href="#location">Location</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact" class="nav-contact-btn">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="home">
+    <div class="hero-bg">
+      <div class="hero-media-slot">
+        <!-- ▶ ADD YOUR HERO IMAGE — remove display:none once src is added -->
+        <img class="hero-img" src="hero-image.jpg" alt="IronForge Gym" style="display:block">
+        <!-- ▶ OR USE A VIDEO instead of image -->
+        <video class="hero-vid" src="" autoplay muted loop style="display:none"></video>
+        <div class="hero-pattern"></div>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-diagonal"></div>
+    </div>
+
+    <!-- LEFT-ALIGNED hero content (Edit 3) -->
+    <div class="hero-content">
+      <p class="hero-eyebrow">✦ Udumalpet's Premier Fitness Destination</p>
+      <h1 class="hero-title">
+        FORGE YOUR
+        <span>LEGEND.</span>
+      </h1>
+      <p class="hero-sub">
+        Where iron meets will. Train harder, recover smarter, and become the strongest version of yourself — body and mind.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#classes" class="btn-primary">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm0 2a6 6 0 1 0 0 12A6 6 0 0 0 8 2zm1 3v2h2v2H9v2H7V9H5V7h2V5h2z"/></svg>
+          Start Training
+        </a>
+        <a href="#about" class="btn-secondary">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Explore More
+        </a>
+      </div>
+    </div>
+
+    <!-- Stats bar — bottom right -->
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="hero-stat-num">500+</div><div class="hero-stat-label">Members</div></div>
+      <div class="hero-stat"><div class="hero-stat-num">15+</div><div class="hero-stat-label">Classes</div></div>
+      <div class="hero-stat"><div class="hero-stat-num">10+</div><div class="hero-stat-label">Expert Trainers</div></div>
+      <div class="hero-stat"><div class="hero-stat-num">5★</div><div class="hero-stat-label">Rated</div></div>
+    </div>
+
+    <!-- Scroll hint — bottom left -->
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about">
+    <div class="about-left reveal">
+      <p class="section-label">✦ Who We Are</p>
+      <div class="gold-line"></div>
+      <h2 class="section-title">BUILT FOR THOSE <span>WHO REFUSE</span> TO QUIT.</h2>
+      <p>IronForge Gym was born in the heart of Udumalpet with a singular mission: to create a space where ambition meets structure. We're not just a gym — we're a community of athletes, beginners, and everyday warriors who show up every single day.</p>
+      <p style="margin-top:16px">Whether you're stepping inside for the first time or chasing your next personal record, our expert trainers, premium equipment, and electric atmosphere will push you further than you thought possible.</p>
+      <div class="about-features">
+        <div class="about-feature"><div class="about-feature-icon">🏋️</div>Functional strength meets high-performance cardio</div>
+        <div class="about-feature"><div class="about-feature-icon">🤝</div>Community-focused, competition-friendly environment</div>
+        <div class="about-feature"><div class="about-feature-icon">📈</div>Training built around progression, not burnout</div>
+        <div class="about-feature"><div class="about-feature-icon">🎯</div>Personalized plans crafted by certified coaches</div>
+      </div>
+      <div style="margin-top:40px"><a href="#classes" class="btn-primary">Explore Our Classes</a></div>
+    </div>
+
+    <div class="about-right reveal">
+      <div class="about-img-grid">
+        <div class="about-img-slot">
+          <!-- ▶ ADD IMAGE: <img src="your-image.jpg" style="display:block"> -->
+          <div class="about-img-placeholder"><img src="GymGirl.avif" style="display:block"></div>
+        </div>
+        <div class="about-img-slot"><div class="about-img-placeholder"><img src="Gym1.jpg" style="display:block"></div></div>
+        <div class="about-img-slot"><div class="about-img-placeholder"><img src="GymBoy.jfif" style="display:block"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== VIDEO SECTION ===================== -->
+  <div id="video-section">
+    <div class="video-wrapper">
+      <!-- ▶ ADD VIDEO: <video src="your-promo.mp4" loop muted id="promoVideo" style="display:block"></video> -->
+       <video src="1.mp4" loop muted id="promoVideo" style="display:block"></video>
+      <div class="video-placeholder"><video src="1.mp4" autoplay muted id="promoVideo" style="display:block"></video></div>
+    </div>
+    <div class="video-overlay"></div>
+    <div class="video-content">
+      <div class="play-btn" onclick="toggleVideo()">
+        <svg width="28" height="28" fill="white" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+      <h2>SEE THE FORGE IN ACTION</h2>
+      <!-- <p class="video-add-note">→ Add your promo video to the &lt;video&gt; tag above ←</p> -->
+    </div>
+  </div>
+
+  <!-- ===================== CLASSES ===================== -->
+  <section id="classes">
+    <div class="classes-header">
+      <div class="reveal">
+        <p class="section-label">✦ What We Offer</p>
+        <div class="gold-line"></div>
+        <h2 class="section-title">OUR <span>SIGNATURE</span> CLASSES</h2>
+      </div>
+      <div class="reveal" style="text-align:right">
+        <p style="font-size:0.8rem;color:var(--gray);max-width:260px;line-height:1.7">Hover over any card to pause the scroll and explore.</p>
+      </div>
+    </div>
+
+    <div class="ticker-wrapper reveal">
+      <div class="ticker-track" id="tickerTrack">
+        <!-- Original set -->
+        <div class="class-card"><div class="class-icon">⚡</div><div class="class-name">HIIT CIRCUIT</div><div class="class-desc">High-intensity interval training designed to torch calories and build endurance in 45 explosive minutes.</div><div class="class-meta"><span class="class-tag">45 Min</span><span class="class-tag">All Levels</span></div></div>
+        <div class="class-card"><div class="class-icon">🏋️</div><div class="class-name">POWERLIFTING</div><div class="class-desc">Structured strength training focused on squat, bench, and deadlift. Build raw power with expert coaching.</div><div class="class-meta"><span class="class-tag">60 Min</span><span class="class-tag">Intermediate</span></div></div>
+        <div class="class-card"><div class="class-icon">🥊</div><div class="class-name">BOXING FITNESS</div><div class="class-desc">Punch, move, and sweat. A full-body cardio workout using boxing techniques to burn fat and relieve stress.</div><div class="class-meta"><span class="class-tag">50 Min</span><span class="class-tag">All Levels</span></div></div>
+        <div class="class-card"><div class="class-icon">🧘</div><div class="class-name">YOGA & RECOVERY</div><div class="class-desc">Mobility work, breathwork, and deep stretching to restore your body and sharpen your mental edge.</div><div class="class-meta"><span class="class-tag">60 Min</span><span class="class-tag">All Levels</span></div></div>
+        <div class="class-card"><div class="class-icon">🚴</div><div class="class-name">SPIN CYCLING</div><div class="class-desc">Music-driven indoor cycling sessions that push your cardio limits and strengthen your legs and core.</div><div class="class-meta"><span class="class-tag">45 Min</span><span class="class-tag">Beginner+</span></div></div>
+        <div class="class-card"><div class="class-icon">🔥</div><div class="class-name">FUNCTIONAL FIT</div><div class="class-desc">Real-world movement patterns using kettlebells, sleds, and bands to build athletic, usable strength.</div><div class="class-meta"><span class="class-tag">50 Min</span><span class="class-tag">All Levels</span></div></div>
+        <div class="class-card"><div class="class-icon">🤸</div><div class="class-name">CROSSFIT STYLE</div><div class="class-desc">WOD-based group sessions mixing gymnastics, Olympic lifts, and conditioning for total fitness.</div><div class="class-meta"><span class="class-tag">55 Min</span><span class="class-tag">Intermediate</span></div></div>
+        <div class="class-card"><div class="class-icon">💪</div><div class="class-name">BODY SCULPT</div><div class="class-desc">Targeted muscle shaping with dumbbells and resistance bands. Lean, toned results in every session.</div><div class="class-meta"><span class="class-tag">45 Min</span><span class="class-tag">All Levels</span></div></div>
+        <!-- Duplicate set for seamless loop -->
+        <div class="class-card"><div class="class-icon">⚡</div><div class="class-name">HIIT CIRCUIT</div><div class="class-desc">High-intensity interval training designed to torch calories and build endurance in 45 explosive minutes.</div><div class="class-meta"><span class="class-tag">45 Min</span><span class="class-tag">All Levels</span></div></div>
+        <div class="class-card"><div class="class-icon">🏋️</div><div class="class-name">POWERLIFTING</div><div class="class-desc">Structured strength training focused on squat, bench, and deadlift. Build raw power with expert coaching.</div><div class="class-meta"><span class="class-tag">60 Min</span><span class="class-tag">Intermediate</span></div></div>
+        <div class="class-card"><div class="class-icon">🥊</div><div class="class-name">BOXING FITNESS</div><div class="class-desc">Punch, move, and sweat. A full-body cardio workout using boxing techniques to burn fat and relieve stress.</div><div class="class-meta"><span class="class-tag">50 Min</span><span class="class-tag">All Levels</span></div></div>
+        <div class="class-card"><div class="class-icon">🧘</div><div class="class-name">YOGA & RECOVERY</div><div class="class-desc">Mobility work, breathwork, and deep stretching to restore your body and sharpen your mental edge.</div><div class="class-meta"><span class="class-tag">60 Min</span><span class="class-tag">All Levels</span></div></div>
+        <div class="class-card"><div class="class-icon">🚴</div><div class="class-name">SPIN CYCLING</div><div class="class-desc">Music-driven indoor cycling sessions that push your cardio limits and strengthen your legs and core.</div><div class="class-meta"><span class="class-tag">45 Min</span><span class="class-tag">Beginner+</span></div></div>
+        <div class="class-card"><div class="class-icon">🔥</div><div class="class-name">FUNCTIONAL FIT</div><div class="class-desc">Real-world movement patterns using kettlebells, sleds, and bands to build athletic, usable strength.</div><div class="class-meta"><span class="class-tag">50 Min</span><span class="class-tag">All Levels</span></div></div>
+        <div class="class-card"><div class="class-icon">🤸</div><div class="class-name">CROSSFIT STYLE</div><div class="class-desc">WOD-based group sessions mixing gymnastics, Olympic lifts, and conditioning for total fitness.</div><div class="class-meta"><span class="class-tag">55 Min</span><span class="class-tag">Intermediate</span></div></div>
+        <div class="class-card"><div class="class-icon">💪</div><div class="class-name">BODY SCULPT</div><div class="class-desc">Targeted muscle shaping with dumbbells and resistance bands. Lean, toned results in every session.</div><div class="class-meta"><span class="class-tag">45 Min</span><span class="class-tag">All Levels</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AMENITIES ===================== -->
+  <section id="amenities">
+    <div class="reveal">
+      <p class="section-label">✦ World-Class Facilities</p>
+      <div class="gold-line"></div>
+      <h2 class="section-title">PREMIUM <span>AMENITIES</span></h2>
+      <p style="margin-top:16px;color:var(--gray);font-size:0.88rem;max-width:540px;line-height:1.8;font-weight:300">Everything you need to train hard, recover smart, and feel at home — all under one roof.</p>
+    </div>
+    <div class="amenities-grid">
+      <div class="amenity-card reveal"><span class="amenity-icon">🏋️</span><div class="amenity-title">Free Weights Zone</div><div class="amenity-desc">Dumbbells from 2 to 60 kg, Olympic barbells, and EZ bars — everything for a complete strength session.</div></div>
+      <div class="amenity-card reveal"><span class="amenity-icon">🚴</span><div class="amenity-title">Cardio Suite</div><div class="amenity-desc">Treadmills, ellipticals, rowing machines, assault bikes, and stair climbers — all premium, all maintained daily.</div></div>
+      <div class="amenity-card reveal"><span class="amenity-icon">🧘</span><div class="amenity-title">Yoga & Stretch Studio</div><div class="amenity-desc">A dedicated calm space for yoga, pilates, mobility work, and post-workout recovery sessions.</div></div>
+      <div class="amenity-card reveal"><span class="amenity-icon">🥊</span><div class="amenity-title">Boxing Ring & Bags</div><div class="amenity-desc">Full-size boxing ring, heavy bags, speed bags, and focus mitts for your combat fitness training.</div></div>
+      <div class="amenity-card reveal"><span class="amenity-icon">🚿</span><div class="amenity-title">Locker Rooms & Showers</div><div class="amenity-desc">Spacious lockers, hot showers, and well-maintained changing rooms for a seamless gym experience.</div></div>
+      <div class="amenity-card reveal"><span class="amenity-icon">💊</span><div class="amenity-title">Nutrition Bar</div><div class="amenity-desc">Post-workout protein shakes, smoothies, and healthy snacks — fuel before and after your session.</div></div>
+      <div class="amenity-card reveal"><span class="amenity-icon">👤</span><div class="amenity-title">Personal Training</div><div class="amenity-desc">1-on-1 sessions with certified trainers who craft programs specifically for your goals and fitness level.</div></div>
+      <div class="amenity-card reveal"><span class="amenity-icon">📡</span><div class="amenity-title">High-Speed Wi-Fi</div><div class="amenity-desc">Stay connected throughout the facility. Stream your workouts, log your sets, stay in the zone.</div></div>
+      <div class="amenity-card reveal"><span class="amenity-icon">❄️</span><div class="amenity-title">Air-Conditioned Floors</div><div class="amenity-desc">Train in complete comfort with powerful climate control across all training zones, year-round.</div></div>
+    </div>
+  </section>
+
+  <!-- ===================== LOCATION ===================== -->
+  <div id="location">
+    <div class="location-header reveal">
+      <p class="section-label">✦ Find Us</p>
+      <div class="gold-line"></div>
+      <h2 class="section-title">OUR <span>LOCATION</span></h2>
+      <div class="location-info">
+        <div class="location-detail">
+          <div class="location-detail-icon">📍</div>
+          <div class="location-detail-text">
+            <h4>Address</h4>
+            <p>IronForge Gym, 42 Main Road<br>Udumalpet, Tamil Nadu 642 126<br>India</p>
+          </div>
+        </div>
+        <div class="location-detail">
+          <div class="location-detail-icon">🕐</div>
+          <div class="location-detail-text">
+            <h4>Opening Hours</h4>
+            <p>Mon – Sat: 5:00 AM – 11:00 PM<br>Sunday: 6:00 AM – 8:00 PM</p>
+          </div>
+        </div>
+        <div class="location-detail">
+          <div class="location-detail-icon">📞</div>
+          <div class="location-detail-text">
+            <h4>Phone</h4>
+            <p>+91 98765 43210</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="map-container">
+      <div class="map-overlay-label">✦ IRONFORGE GYM — UDUMALPET, TAMIL NADU ✦</div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31631.36248843737!2d77.23789!3d10.58584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba98f5b15555555%3A0x1234567890abcdef!2sUdumalpet%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1716000000000"
+        allowfullscreen loading="lazy" title="IronForge Gym Location">
+      </iframe>
+    </div>
+  </div>
+
+  <!-- ===================== REVIEWS ===================== -->
+  <section id="reviews">
+    <div class="reveal">
+      <p class="section-label">✦ Member Stories</p>
+      <div class="gold-line"></div>
+      <h2 class="section-title">WHAT OUR <span>MEMBERS</span> SAY</h2>
+      <p class="reviews-subtitle">⭐ 4.9 out of 5 — Based on 200+ Google Reviews</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card reveal">
+        <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="review-text">IronForge completely changed how I train. The equipment is top-notch, the trainers actually care, and the atmosphere pushes you to do more every time.</p>
+        <div class="reviewer"><div class="reviewer-avatar">RK</div><div><div class="reviewer-name">Rajesh Kumar</div><div class="reviewer-date">2 weeks ago · Verified Member</div></div></div>
+      </div>
+      <div class="review-card reveal">
+        <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="review-text">Best gym in Udumalpet, no contest. The HIIT and boxing classes are absolutely brutal in the best way. I've lost 12 kg in 4 months. Worth every rupee!</p>
+        <div class="reviewer"><div class="reviewer-avatar">PM</div><div><div class="reviewer-name">Priya Muthusamy</div><div class="reviewer-date">1 month ago · Verified Member</div></div></div>
+      </div>
+      <div class="review-card reveal">
+        <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="review-text">The coaches are incredibly knowledgeable. They watch your form, track your progress, and actually push you. The facilities are always clean and modern.</p>
+        <div class="reviewer"><div class="reviewer-avatar">SA</div><div><div class="reviewer-name">Senthil Arumugam</div><div class="reviewer-date">1 month ago · Verified Member</div></div></div>
+      </div>
+      <div class="review-card reveal">
+        <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="review-text">I was nervous as a complete beginner, but the community here is so welcoming. No judgment — just energy, encouragement, and great results. Love this place!</p>
+        <div class="reviewer"><div class="reviewer-avatar">DV</div><div><div class="reviewer-name">Divya Venkat</div><div class="reviewer-date">6 weeks ago · Verified Member</div></div></div>
+      </div>
+      <div class="review-card reveal">
+        <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="review-text">Early morning 5 AM sessions are a game changer. The trainers are always there, always motivated. This gym runs like a professional athletic facility.</p>
+        <div class="reviewer"><div class="reviewer-avatar">MK</div><div><div class="reviewer-name">Muthu Krishnan</div><div class="reviewer-date">2 months ago · Verified Member</div></div></div>
+      </div>
+      <div class="review-card reveal">
+        <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="review-text">The powerlifting program here is elite. Increased my deadlift by 40 kg in 3 months. If you're serious about strength, this is your place in Udumalpet.</p>
+        <div class="reviewer"><div class="reviewer-avatar">AP</div><div><div class="reviewer-name">Anand Pillai</div><div class="reviewer-date">3 months ago · Verified Member</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT / FOOTER ===================== -->
+  <footer id="contact">
+    <div class="contact-grid">
+      <div class="contact-left reveal">
+        <p class="section-label">✦ Get In Touch</p>
+        <div class="gold-line"></div>
+        <h2>LET'S START YOUR <span>JOURNEY</span></h2>
+        <p>Ready to transform? Drop us a message, call, or just walk in. Our team is here to guide you from day one.</p>
+        <div class="contact-details">
+          <div class="contact-item"><div class="contact-item-icon">📧</div>info@ironforgeudumalpet.com</div>
+          <div class="contact-item"><div class="contact-item-icon">📞</div>+91 98765 43210</div>
+          <div class="contact-item"><div class="contact-item-icon">📍</div>42 Main Road, Udumalpet, Tamil Nadu 642 126</div>
+          <div class="contact-item"><div class="contact-item-icon">🕐</div>Mon–Sat 5 AM–11 PM &nbsp;|&nbsp; Sun 6 AM–8 PM</div>
+        </div>
+      </div>
+
+      <!-- EDIT 2: Real Formspree form -->
+      <div class="reveal">
+        <form
+          id="contactForm"
+          class="contact-form"
+          action="https://formspree.io/f/xdabzpnn"
+          method="POST"
+          novalidate>
+
+          <!-- Formspree honeypot spam protection -->
+          <input type="text" name="_gotcha" style="display:none">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="first_name" placeholder="Rajesh" required>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="last_name" placeholder="Kumar" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
+          </div>
+          <div class="form-group">
+            <label for="interest">Interested In</label>
+            <select id="interest" name="interest">
+              <option>Membership Inquiry</option>
+              <option>Personal Training</option>
+              <option>Group Classes</option>
+              <option>Nutrition Coaching</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your fitness goals..."></textarea>
+          </div>
+          <button type="submit" class="submit-btn" id="submitBtn">Send Message →</button>
+        </form>
+
+        <!-- Success message shown after submission -->
+        <div class="form-success" id="formSuccess">
+          ✦ &nbsp; Thank you! Your message has been sent.<br>
+          <span style="font-size:0.75rem;opacity:0.7">We'll get back to you within 24 hours.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <div>
+        <a href="#home" class="footer-logo">IRON<span>FORGE</span></a>
+        <p class="footer-tagline">Fitness beyond the physical — Udumalpet, Tamil Nadu</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#amenities">Amenities</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+      </ul>
+      <div class="footer-social">
+        <a class="social-btn" href="#" title="Facebook">f</a>
+        <a class="social-btn" href="#" title="Instagram">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+        <a class="social-btn" href="#" title="YouTube">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+        </a>
+        <a class="social-btn" href="#" title="WhatsApp">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+        </a>
+      </div>
+      <p class="footer-copy">© 2026 IronForge Gym, Udumalpet. All rights reserved. Crafted with ⚡ in Tamil Nadu.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
